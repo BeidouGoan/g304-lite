@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Build artifacts (attach the exe to a Release instead of committing it)
+build/
+dist/
+*.spec.bak
+
+# Local runtime config (machine-specific, may contain user settings)
+config.json
+
+# Debug / personal screenshots and generated previews.
+# Allow-list only the assets the app needs at runtime plus the clean screenshot.
+assets/*
+!assets/g304-lite.ico
+!assets/g304-lite.png
+!assets/g304-lite-24.png
+!assets/ui-bg.png
+!assets/screenshot.png
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
